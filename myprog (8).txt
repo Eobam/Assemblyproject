@@ -1,0 +1,12 @@
+      LDR R0,. InputNum
+      CMP R0, #1
+      BEQ Addition
+      BNE Subtraction
+Addition:
+      LDR R1,. InputNum
+      LDR R2,. InputNum
+      ADD R3, R1, R0
+Subtraction:
+      LDR R4,. InputNum
+      LDR R5,. InputNum
+      SUB R6, R3, R4
