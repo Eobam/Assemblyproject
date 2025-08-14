@@ -1,0 +1,3 @@
+      LDR R0,. InputNum
+      ADD R1,. InputNum
+      ADD R2, R1, R0
